@@ -3,7 +3,7 @@ pessoas = []
 p = P = 0
 while True:
     pessoas.append(input('Nome: '))
-    pessoas.append(input('Peso: kg '))
+    pessoas.append(float(input('Peso: kg ')))
     if len(galera) == 0:
         p = P = pessoas[1]
     else:
