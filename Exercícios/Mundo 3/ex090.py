@@ -7,4 +7,3 @@ else:
     aluno['Situação'] = str('Reprovado')
 for k, v in aluno.items():
     print(f'{k}: {v}')
-
