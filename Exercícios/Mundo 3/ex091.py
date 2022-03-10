@@ -1,6 +1,3 @@
-
-# ordeanar do maior para o menos
-# Mostrar o ranking
 from random import randint
 from time import sleep
 from operator import itemgetter
