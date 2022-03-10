@@ -8,8 +8,8 @@ for k, v in Jogador.items():
         Jogador[k]= v
         sleep(1)
     print(f'Jogador {k}: {v}')
-ranking = sorted(Jogador.items(), key=itemgetter(1), reverse=True)
 print('   === Ranking ===   ')
+ranking = sorted(Jogador.items(), key=itemgetter(1), reverse=True)
 for i, j in enumerate(ranking):
     print(f'{i+1}° Lugar: Jogador {j[0]} com {j[1]}')
     sleep(1)
