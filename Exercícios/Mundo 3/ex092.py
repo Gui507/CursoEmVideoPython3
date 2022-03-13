@@ -1,4 +1,3 @@
-# mostrar os resultados
 from datetime import datetime
 dados = {}
 dados['Nome'] = str(input('Nome: '))
