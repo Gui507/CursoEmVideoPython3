@@ -1,26 +1,23 @@
 def contador(i, f, p):
     from time import sleep
+    if p == 0:
+        p = 1
+    elif p < 0:
+        p *= -1
     print("-"*40)
     print(f'Contagem de {i} até {f} de {p} em {p}')
     c = i
+
     if i < f:
         while c <= f:
             print(f'{c} ', end='')
             sleep(0.25)
-            if p == 0:
-                p = 1
-                c += p
-            else:
-                c += p
+            c += p
     elif i > f or p < 0:
         while c >= f:
             print(f'{c} ', end='')
             sleep(0.25)
-            if p == 0:
-                p = 1
-                c -= p
-            else:
-                c -= p
+            c -= p
 
     print()
     print("-"*40)
