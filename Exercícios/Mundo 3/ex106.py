@@ -1,11 +1,11 @@
 def escreva(txt):
-    print('-'* (len(txt)+2))
+    print('-'* len(txt))
     print(txt)
-    print('-' * (len(txt)+2))
+    print('-' * len(txt))
 
 from time import sleep
 while True:
-    escreva('\033[;42mSistema de Ajuda do Pytho\033[m')
+    escreva('\033[;42m  Sistema de Ajuda do Python  \033[m')
     c = input('Escreva o comando ou biblioteca: ').lower()
     if c == 'fim':
         break
