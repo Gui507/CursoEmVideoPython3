@@ -1,5 +1,5 @@
 def leiaint(msg):
-   while True:
+    while True:
         try:
             n = int(input(msg))
         except ValueError or TypeError:
@@ -12,7 +12,7 @@ def leiaint(msg):
 
 
 def leiafloat(msg):
-   while True:
+    while True:
         try:
             n = float(input(msg).replace(',', '.'))
         except ValueError or TypeError:
