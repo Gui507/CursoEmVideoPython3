@@ -1,0 +1,1 @@
+from Exercícios.Mundo3.ex112.utilidadescev import moeda, dado

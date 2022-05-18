@@ -1,4 +1,4 @@
-ef aumentar(preço=0, taxa=0, formatado=False):
+def aumentar(preço=0, taxa=0, formatado=False):
     res = preço + (taxa/100 * preço)
     return res if not formatado else moeda(res)
 
